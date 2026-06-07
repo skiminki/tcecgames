@@ -6527,6 +6527,70 @@
             }
 	 ]
       },
+      "30": {
+         "download": "TCEC_Season_30_full.pgn.zip",
+         "fullpgn": "TCEC_Season_30_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s30division4kt",
+               "menu": "4K Testing",
+               "url": "season=30&div=4kt",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_4k_Testing",
+	       "dno": "0001"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= Cup 17 =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= Swiss 10 =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= 4K VII =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "3499"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= FRD 6 =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "3099"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",
