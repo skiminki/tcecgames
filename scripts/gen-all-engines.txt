@@ -5,6 +5,8 @@
 4k.c (5.0)
 4k.c (5.8)
 4k.c (9.0)
+4k.c (9.15)
+4k.c (9.15.1)
 4ku
 4ku (1.0)
 4ku (2.0)
@@ -1611,6 +1613,7 @@ STRO4K (4.0)
 STRO4K (4.0) [copy]
 STRO4K (5.0)
 STRO4K (5.0.1)
+STRO4K (6.0)
 Sapling (1.2.2)
 Sapling (1.2.3)
 Sapling (1.2.4)

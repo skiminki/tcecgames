@@ -171,6 +171,10 @@ def classify_event(season, event_id, event_name):
                         "s29divisionsfrdsl1", "s29divisionsfrdsl1t", "s29divisionsfrdsl2", "s29divisionsfrdfl", "s29divisionsfrdf"]:
             return "DFRC"
 
+        if event_id in ["s30division4kf", "s30division4ke"]:
+            return "MAIN"
+
+
     fatal(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'", 5)
 
 def sync_pgn(pgnfile):

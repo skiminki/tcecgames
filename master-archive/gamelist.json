@@ -5415,7 +5415,7 @@
                "url": "season=28&div=4ke",
                "no": "28",
                "abb": "TCEC_Season_28_-_4k_V_Elf_Executable_Bonus",
-	       "dno": "1003"
+	       "dno": "3403"
             },
             {
                "id": "s28divisionsvvltc",
@@ -6540,6 +6540,38 @@
                "no": "30",
                "abb": "TCEC_Season_30_-_4k_Testing",
 	       "dno": "0001"
+            },
+            {
+               "id": "s30division4k",
+               "menu": "4K VII",
+               "url": "season=30&div=4k",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_4k_Vii",
+	       "dno": "3402"
+            },
+            {
+               "id": "s30division4kf",
+               "menu": "4K VII MiniFinal",
+               "url": "season=30&div=4kf",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_4k_Vii_Minifinal",
+	       "dno": "3403"
+            },
+            {
+               "id": "s30division4kaf",
+               "menu": "4K VII Alt MiniFinal Bonus",
+               "url": "season=30&div=4kaf",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_4k_Vii_Alt_Minifinal_Bonus",
+	       "dno": "1004"
+            },
+            {
+               "id": "s30division4ke",
+               "menu": "4K ELF III",
+               "url": "season=30&div=4ke",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_4k_Elf_Iii",
+	       "dno": "3405"
             },
             {
                "id": "s30divisiondivider",
