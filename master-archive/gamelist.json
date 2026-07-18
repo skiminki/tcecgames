@@ -6574,6 +6574,22 @@
 	       "dno": "3405"
             },
             {
+               "id": "s30divisionvsob30",
+               "menu": "Viewer Submitted Openings Bonus 30",
+               "url": "season=30&div=vsob30",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_Viewer_Submitted_Openings_Bonus_30",
+	       "dno": "1006"
+            },
+            {
+               "id": "s30divisionhcet",
+               "menu": "HCE Testing",
+               "url": "season=30&div=hcet",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_Hce_Testing",
+	       "dno": "0007"
+            },
+            {
                "id": "s30divisiondivider",
                "menu": "-= Cup 17 =-",
                "url": "season=30&div=undefined",
@@ -6588,6 +6604,14 @@
                "no": "30",
                "abb": "TCEC_Season_30_-_None",
                "dno": "3999"
+            },
+            {
+               "id": "s30divisiondivider",
+               "menu": "-= HCE 1 =-",
+               "url": "season=30&div=undefined",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_None",
+               "dno": "3599"
             },
             {
                "id": "s30divisiondivider",
