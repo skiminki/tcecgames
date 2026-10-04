@@ -174,6 +174,12 @@ def classify_event(season, event_id, event_name):
         if event_id in ["s30division4kf", "s30division4ke"]:
             return "MAIN"
 
+        if event_id in ["s30divisionhce"]:
+            return "HCE"
+
+        if event_id in ["s30divisionscat34p", "s30divisionscat2p", "s30divisionscat1p"]:
+            return "MAIN"
+
 
     fatal(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'", 5)
 
@@ -484,7 +490,7 @@ def output_make_defs(make_defs):
         season_events = False
 
         for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
-            if event[1].event_class in ["MAIN", "CUP", "SWISS"]:
+            if event[1].event_class in ["MAIN", "CUP", "SWISS", "HCE"]:
                 season_rule = season_rule + f" {event[1].output_file}"
                 season_events = True
 
@@ -558,7 +564,7 @@ def output_make_defs(make_defs):
 
     # Season/event class rules
     for season in make_defs:
-        for category in ["MAIN", "CUP", "FRC", "DFRC", "SWISS", "BONUS", "TEST"]:
+        for category in ["MAIN", "CUP", "FRC", "DFRC", "SWISS", "HCE", "BONUS", "TEST"]:
 
             no_events = True
 
